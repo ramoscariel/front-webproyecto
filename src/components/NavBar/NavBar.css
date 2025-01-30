@@ -1,0 +1,40 @@
+.navbar{
+    max-width: 640px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__logo{
+    display: flex;
+    transition: color 0.3s ease;
+}
+
+.navbar__logo:hover{
+    cursor:pointer;
+    color: #3cd0ff;
+}
+
+.navbar__heading{
+    margin: 2px 0px 0px 1rem;
+    font-weight: lighter;
+}
+
+.navbar__navigation{
+    padding-top: 10px;
+}
+
+.navbar__button{
+    margin-left: 2rem;
+    border:none;
+    font-size: larger;
+    background-color: #f9f9f9;
+    font-family: inherit;
+    color:inherit;
+    transition: color 0.3s ease;
+}
+
+.navbar__button:hover{
+    cursor:pointer;
+    color: #3cd0ff;
+}

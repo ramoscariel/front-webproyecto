@@ -1,0 +1,66 @@
+.profile-container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 2rem;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile__button {
+  background-color: #3cd0ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.profile__button:hover {
+  background-color: #32b0e6;
+}
+
+.profile-posts {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.profile-post-item {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-post-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 10px;
+}
+
+.profile-post-action-button {
+  background-color: #3cd0ff;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.profile-post-action-button:hover {
+  background-color: #32b0e6;
+}
+
+.delete {
+  background-color: #f44336;
+}
+
+.delete:hover {
+  background-color: #e53935;
+}
