@@ -1,3 +1,3 @@
-const apiEndpoint = 'http://127.0.0.1:3000';
+const apiEndpoint = 'https://back-final-hqie.onrender.com';
 
 export default apiEndpoint;
